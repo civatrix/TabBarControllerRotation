@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA66E061A2FD20F00286FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E051A2FD20F00286FF7 /* main.m */; };
+		FEA66E091A2FD20F00286FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E081A2FD20F00286FF7 /* AppDelegate.m */; };
+		FEA66E0C1A2FD20F00286FF7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E0B1A2FD20F00286FF7 /* FirstViewController.m */; };
+		FEA66E0F1A2FD20F00286FF7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E0E1A2FD20F00286FF7 /* SecondViewController.m */; };
+		FEA66E121A2FD20F00286FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA66E101A2FD20F00286FF7 /* Main.storyboard */; };
+		FEA66E141A2FD20F00286FF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA66E131A2FD20F00286FF7 /* Images.xcassets */; };
+		FEA66E171A2FD20F00286FF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA66E151A2FD20F00286FF7 /* LaunchScreen.xib */; };
+		FEA66E231A2FD20F00286FF7 /* TabBarRotationTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E221A2FD20F00286FF7 /* TabBarRotationTesterTests.m */; };
+		FEA66E2E1A2FD25100286FF7 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA66E2D1A2FD25100286FF7 /* CustomTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA66E1D1A2FD20F00286FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA66DF81A2FD20F00286FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA66DFF1A2FD20F00286FF7;
+			remoteInfo = TabBarRotationTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA66E001A2FD20F00286FF7 /* TabBarRotationTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarRotationTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA66E041A2FD20F00286FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA66E051A2FD20F00286FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA66E071A2FD20F00286FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA66E081A2FD20F00286FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA66E0A1A2FD20F00286FF7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FEA66E0B1A2FD20F00286FF7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FEA66E0D1A2FD20F00286FF7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FEA66E0E1A2FD20F00286FF7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FEA66E111A2FD20F00286FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA66E131A2FD20F00286FF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEA66E161A2FD20F00286FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEA66E1C1A2FD20F00286FF7 /* TabBarRotationTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarRotationTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA66E211A2FD20F00286FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA66E221A2FD20F00286FF7 /* TabBarRotationTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarRotationTesterTests.m; sourceTree = "<group>"; };
+		FEA66E2C1A2FD25100286FF7 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		FEA66E2D1A2FD25100286FF7 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA66DFD1A2FD20F00286FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA66E191A2FD20F00286FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA66DF71A2FD20F00286FF7 = {
+			isa = PBXGroup;
+			children = (
+				FEA66E021A2FD20F00286FF7 /* TabBarRotationTester */,
+				FEA66E1F1A2FD20F00286FF7 /* TabBarRotationTesterTests */,
+				FEA66E011A2FD20F00286FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA66E011A2FD20F00286FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA66E001A2FD20F00286FF7 /* TabBarRotationTester.app */,
+				FEA66E1C1A2FD20F00286FF7 /* TabBarRotationTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA66E021A2FD20F00286FF7 /* TabBarRotationTester */ = {
+			isa = PBXGroup;
+			children = (
+				FEA66E071A2FD20F00286FF7 /* AppDelegate.h */,
+				FEA66E081A2FD20F00286FF7 /* AppDelegate.m */,
+				FEA66E0A1A2FD20F00286FF7 /* FirstViewController.h */,
+				FEA66E0B1A2FD20F00286FF7 /* FirstViewController.m */,
+				FEA66E0D1A2FD20F00286FF7 /* SecondViewController.h */,
+				FEA66E0E1A2FD20F00286FF7 /* SecondViewController.m */,
+				FEA66E101A2FD20F00286FF7 /* Main.storyboard */,
+				FEA66E131A2FD20F00286FF7 /* Images.xcassets */,
+				FEA66E151A2FD20F00286FF7 /* LaunchScreen.xib */,
+				FEA66E031A2FD20F00286FF7 /* Supporting Files */,
+				FEA66E2C1A2FD25100286FF7 /* CustomTabBarController.h */,
+				FEA66E2D1A2FD25100286FF7 /* CustomTabBarController.m */,
+			);
+			path = TabBarRotationTester;
+			sourceTree = "<group>";
+		};
+		FEA66E031A2FD20F00286FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA66E041A2FD20F00286FF7 /* Info.plist */,
+				FEA66E051A2FD20F00286FF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA66E1F1A2FD20F00286FF7 /* TabBarRotationTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA66E221A2FD20F00286FF7 /* TabBarRotationTesterTests.m */,
+				FEA66E201A2FD20F00286FF7 /* Supporting Files */,
+			);
+			path = TabBarRotationTesterTests;
+			sourceTree = "<group>";
+		};
+		FEA66E201A2FD20F00286FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA66E211A2FD20F00286FF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA66DFF1A2FD20F00286FF7 /* TabBarRotationTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA66E261A2FD20F00286FF7 /* Build configuration list for PBXNativeTarget "TabBarRotationTester" */;
+			buildPhases = (
+				FEA66DFC1A2FD20F00286FF7 /* Sources */,
+				FEA66DFD1A2FD20F00286FF7 /* Frameworks */,
+				FEA66DFE1A2FD20F00286FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarRotationTester;
+			productName = TabBarRotationTester;
+			productReference = FEA66E001A2FD20F00286FF7 /* TabBarRotationTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA66E1B1A2FD20F00286FF7 /* TabBarRotationTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA66E291A2FD20F00286FF7 /* Build configuration list for PBXNativeTarget "TabBarRotationTesterTests" */;
+			buildPhases = (
+				FEA66E181A2FD20F00286FF7 /* Sources */,
+				FEA66E191A2FD20F00286FF7 /* Frameworks */,
+				FEA66E1A1A2FD20F00286FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA66E1E1A2FD20F00286FF7 /* PBXTargetDependency */,
+			);
+			name = TabBarRotationTesterTests;
+			productName = TabBarRotationTesterTests;
+			productReference = FEA66E1C1A2FD20F00286FF7 /* TabBarRotationTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA66DF81A2FD20F00286FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel Johns";
+				TargetAttributes = {
+					FEA66DFF1A2FD20F00286FF7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FEA66E1B1A2FD20F00286FF7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FEA66DFF1A2FD20F00286FF7;
+					};
+				};
+			};
+			buildConfigurationList = FEA66DFB1A2FD20F00286FF7 /* Build configuration list for PBXProject "TabBarRotationTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA66DF71A2FD20F00286FF7;
+			productRefGroup = FEA66E011A2FD20F00286FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA66DFF1A2FD20F00286FF7 /* TabBarRotationTester */,
+				FEA66E1B1A2FD20F00286FF7 /* TabBarRotationTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA66DFE1A2FD20F00286FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA66E121A2FD20F00286FF7 /* Main.storyboard in Resources */,
+				FEA66E171A2FD20F00286FF7 /* LaunchScreen.xib in Resources */,
+				FEA66E141A2FD20F00286FF7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA66E1A1A2FD20F00286FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA66DFC1A2FD20F00286FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA66E0F1A2FD20F00286FF7 /* SecondViewController.m in Sources */,
+				FEA66E091A2FD20F00286FF7 /* AppDelegate.m in Sources */,
+				FEA66E0C1A2FD20F00286FF7 /* FirstViewController.m in Sources */,
+				FEA66E2E1A2FD25100286FF7 /* CustomTabBarController.m in Sources */,
+				FEA66E061A2FD20F00286FF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA66E181A2FD20F00286FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA66E231A2FD20F00286FF7 /* TabBarRotationTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA66E1E1A2FD20F00286FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA66DFF1A2FD20F00286FF7 /* TabBarRotationTester */;
+			targetProxy = FEA66E1D1A2FD20F00286FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA66E101A2FD20F00286FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA66E111A2FD20F00286FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA66E151A2FD20F00286FF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA66E161A2FD20F00286FF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA66E241A2FD20F00286FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA66E251A2FD20F00286FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA66E271A2FD20F00286FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarRotationTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEA66E281A2FD20F00286FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabBarRotationTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEA66E2A1A2FD20F00286FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarRotationTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarRotationTester.app/TabBarRotationTester";
+			};
+			name = Debug;
+		};
+		FEA66E2B1A2FD20F00286FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabBarRotationTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarRotationTester.app/TabBarRotationTester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA66DFB1A2FD20F00286FF7 /* Build configuration list for PBXProject "TabBarRotationTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA66E241A2FD20F00286FF7 /* Debug */,
+				FEA66E251A2FD20F00286FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA66E261A2FD20F00286FF7 /* Build configuration list for PBXNativeTarget "TabBarRotationTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA66E271A2FD20F00286FF7 /* Debug */,
+				FEA66E281A2FD20F00286FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEA66E291A2FD20F00286FF7 /* Build configuration list for PBXNativeTarget "TabBarRotationTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA66E2A1A2FD20F00286FF7 /* Debug */,
+				FEA66E2B1A2FD20F00286FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA66DF81A2FD20F00286FF7 /* Project object */;
+}
